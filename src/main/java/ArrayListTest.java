@@ -8,7 +8,6 @@ public class ArrayListTest {
         list.add("Ajay");
         list.add("Bill");
         list.add("Geo");
-
         // print list using...
         System.out.println("Traversing list through Iterator:");
         //Traversing list through Iterator
