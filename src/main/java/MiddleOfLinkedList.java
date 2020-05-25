@@ -1,5 +1,5 @@
 // Java program to find middle of linked list 
-class LinkedList {
+class MiddleOfLinkedList {
     Node head; // head of linked list 
 
     /* Linked list node */
@@ -50,7 +50,7 @@ class LinkedList {
     }
 
     public static void main(String [] args) {
-        LinkedList llist = new LinkedList();
+        MiddleOfLinkedList llist = new MiddleOfLinkedList();
         for (int i=5; i>0; --i) {
             llist.push(i);
             llist.printList();
