@@ -3,7 +3,6 @@ public class BinarySearch {
     // Returns index of x if it is present in arr[],
     // else return -1
 
-
     int binarySearch(int arr[], int x) {
         int l = 0, r = arr.length - 1;
         while (l <= r) {
