@@ -11,12 +11,12 @@ public class LargestNumber {
 
         // Sum greater than the maximum possible sum
         if (sum > 9*digits) {
-            System.out.println("Not possible");
+            System.out.println("Not possible with this sum");
             return ;
         }
 
         // Create an array to store digits of result
-        int[] res = new int[digits];
+        int res[] = new int[digits];
 
         // Fill from most significant digit to least
         // significant digit
